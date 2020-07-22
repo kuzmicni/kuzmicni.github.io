@@ -1,0 +1,97 @@
+
+/*-------------------------------------
+   Body
+*/
+
+body{
+    margin-top: 35px;
+    line-height: 2;
+}
+
+/* ------------------------------------
+   Jumbotron
+*/
+.jumbotron {
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* ------------------------------------
+   About Me
+*/
+.container{
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.col-sm{
+    background-color: #eee;
+    margin: 10px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.about-picture{
+  background-size: cover;
+  background-image: url("../../static/images/nk.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 400px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+h4{
+    border-bottom: 2px solid grey;
+}
+
+ul.a{
+    list-style-type: circle;
+}
+
+/*------------------------------------
+   Projects Page
+*/
+
+.col-md-6{
+    overflow: auto;
+    height: 500px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.col{
+    overflow: auto;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+}
+
+/* ------------------------------------
+   Footer
+*/
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  background-color: black;
+  color: #eee;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
+}
