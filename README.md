@@ -1,6 +1,6 @@
 ## Welcome!
 
-The purpose of this portfolio website is to showcase my experience and the main projects I have worked on. 
+The purpose of this portfolio website(https://github.com/kuzmicni/kuzmicni.github.io) is to showcase my experience and the main projects I have worked on. 
 
 Namely,
 
