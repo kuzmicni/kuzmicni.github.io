@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./static/css/style.css">
     <title>Nikola Kuzmic</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
   </head>
 
 
@@ -23,7 +25,7 @@
                     <!-- ml-auto makes content of navbar to the left, but not the logo -->
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="nav-link" href="./templates/projects.html">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="./static/documents/Nikola Kuzmic - Resume.pdf" target="_blank">Resume</a>
@@ -39,78 +41,191 @@
       <main>
 <!--          Jumbotron Section       -->
           <div class="jumbotron" >
-              <div class="container-fluid">
+
+              <div class="row">
+
+              <div class="col-md-4">
                 <h1>Nikola Kuzmic</h1>
                 <p>Data Scientist at EnergyX Solutions Inc., Toronto, ON</p>
                 <p>University of Toronto, MASc.</p>
-                <p>Focus: Data Science | Machine Learning | Cloud Computing</p>
+                <p>Focus: Machine Learning | Cloud Computing</p>
               </div>
+
+              <div class="row-md-4">
+                <div class="row">
+                <a class="medium-logo" href="https://medium.com/@nikola.kuzmic945" target="_blank" ></a>
+                <a class="github-logo" href="https://github.com/kuzmicni" target="_blank" ></a>
+                <a  class="linkedin-logo" href="https://ca.linkedin.com/in/nikola-kuzmic-71b118148" target="_blank" ></a>
+                </div>
+              </div>
+
+            </div>
+
+            </div>
+  <!--                                -->
+
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+                  <div class="about-picture">
+                  </div>
+                </div>
+
+                <div class="col-md-8">
+                  <div>
+                    <h3>Hi, I'm Nikola!</h3>
+                      <p>My passion for numbers has led me to pursue engineering and along the way I discovered the joy of developing technology solutions that solve real-world problems.</p>
+                      
+                      <p>Things I enjoy most about data science are the iterative process of identifying business needs and creating reliable software solutions. For example, at EnergyX, I was able to create an effective and simple product that enabled customers to obtain home energy savings plans without having to understand the complex technical information about their homes. Additionally, I implemented an ML OPS workflow from scratch and secured buy-in from stakeholders by demonstrating the business value which resulted in increasing the ARR by >$500k for the company.</p>
+                      
+                      <p>In my spare time, I like to tinker with open-source ML tools & publicly available datasets to help people gain insight and inspiration.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        
+        <div class="container">
+            <div class="row justify-content-center skill-tabs">
+              <div class="col-sm">
+                <h4> Machine Learning </h4>
+                  <ul><li class ="a">Python</li>
+                  <li>Pandas</li>
+                  <li>Scikit-Learn</li>
+                  <li>TensorFlow</li>
+                  <li>PyTorch</li>
+                  <li>Bokeh</li>
+                  </ul>
+                  
+              </div>
+              <div class="col-sm">
+                <h4> Deployment </h4>
+                  <ul>
+                  <li>AWS</li>
+                  <li>Flask</li>
+                  <li>Docker</li>
+                  <li>Git</li>
+                  <li>MLflow</li>
+                  <li>Linux</li>
+                  <li>MySQL</li>
+                  </ul>
+                  
+              </div>
+              <div class="col-sm">
+                <h4> Front-end </h4>
+                  <ul>
+                  <li>Vue.js</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                  </ul>
+                  
+              </div>
+             </div>
+      </div>
+      
+      <div class="container">
+
+        <h3 id="projects"> Projects </h3>
+
+        <div class="row">
+          <div class="col-md-6">
+              <h4>
+                  <a href="https://mynextmovie.ca/" style="color:black;" target="_blank"> mynextmovie.ca (2021)</a>
+              </h4>
+              <p>
+                  
+              </p>
+              
+              <ul>
+                      <li>Flask backend API</li>
+                      <li>Vue.js for frontend</li>
+                      <li>Deployed on AWS ECS</li>
+              
+              </ul>
+              
+              <p>
+                  <strong>Technologies:</strong> Python, Docker, AWS ECS, ECR, ELB, Route 53
+              </p>
+                  
+                  
+              
+          </div>
+          <div class="col-md-6">
+              <img src="./static/images/movie-rec-eng.png" class="img-responsive fit-image">
+        </div>
+      </div>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <img src="./static/images/RetrofitAI.jpeg" class="img-responsive fit-image">
+          </div>
+
+          <div class="col-md-6">
+            <h4>
+                RetrofitAI (2019)
+              </h4>
+              <p>
+                  Built end-to-end pipeline capable of recommending personalized house renovations and predicting associated energy savings as an alternative to traditional in-person energy audits.  
+              </p>
+              <ul>
+                      <li>Researched and implemented state-of-the-art ML techniques.</li>
+                      <li>Performed extensive data preprocessing and ETL steps.</li>
+                      <li>Deployed models into production on AWS using Flask. </li>
+                      <li>Collaborated with the Product Team in creating a Minimum Viable Product (MVP) and with the Engineering Team in creating an API as a way of interfacing with the main company product.</li>
+                      
+              </ul>
+              <p>
+                  <strong>Technologies:</strong> Python, Pandas, Scikit-Learn, AWS, Flask, HTML, CSS, Bootstrap, MySQL
+              </p>
           </div>
           
-          
-              <div class="container">
-                <div class="row">
-
-                  <div class="col-md-4">
-                    <div class="about-picture">
-                    </div>
-                  </div>
-
-                  <div class="col-md-8">
-                    <div>
-                      <h3>About Nikola Kuzmic</h3>
-                        <p>My passion for numbers has led me to pursue engineering and along the way I discovered the joy of developing technology solutions which solve real-world problems.</p>
-                        
-                        <p>Things I enjoy most about data science are the iterative process of identifying business needs and creating reliable software solutions. For example, at EnergyX, I was able to create an effective and simple product that enabled customers to obtain home energy savings plans without having to understand the complex technical information about their home. Additionally, I implemented an ML OPS workflow from scratch and secured buy-in from stakeholders by demonstrating the business value which resulted in increasing the ARR by $250k for the company.</p>
-                        
-                        <p>In my spare time, I like to tinker with how we can combine NLP with publicly available books to help people gain insight and inspiration while keeping up with their busy schedules.</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-          
-          <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-sm">
-                  <h4> Data Science </h4>
-                    <ul><li class ="a">Python</li>
-                    <li>Pandas</li>
-                    <li>Scikit-Learn</li>
-                    <li>Bokeh</li>
-                    </ul>
-                    
-                </div>
-                <div class="col-sm">
-                  <h4> Deployment </h4>
-                    <ul><li>AWS</li>
-                    <li>Flask</li>
-                    <li>Docker</li>
-                    <li>Git</li>
-                    <li>Linux</li>
-                    <li>MySQL</li>
-                    </ul>
-                    
-                </div>
-                <div class="col-sm">
-                  <h4> Front-end </h4>
-                    <ul>
-                        <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    </ul>
-                    
-                </div>
-               </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-6">
+              <h4>
+                  MASc. Thesis - Blood Vessel Growth Simulator (2017)
+              </h4>
+              <p>
+                  Developed an internal simulation software to help Bioscience Researchers design experimental microfluidic devices (top part of the figure) and determine the necessary concentration of chemicals (denoted v' on the bottom graph) to induce cell (denoted &#961') movement representative of blood vessel growth. My thesis consisted of:
+              </p>
+              
+              <ul>
+                      <li>Translating images into model verification data</li>
+                      <li>Building and implementing mathematical models that can identify the optimal device configuration</li>
+                      <li>Deploying a simple user interface for researchers.</li>
+              
+              </ul>
+              <p>
+                  The outcome of this project was a reduction in time spent planning experiments by 40% and improvement in experiment success by 200%, which translated into savings of ~$20k/year for the lab.
+              </p>
+              <p>
+                  <strong>Technologies:</strong> Matlab, Python, Docker
+              </p>
+                  
+                  
+              
+          </div>
+          <div class="col-md-6">
+              <img src="./static/images/MAScWork.png" class="img-responsive fit-image">
+        </div>
+      </div>
+          
+      </div>
+
+
+          
+              
           
           <div>
               
           </div>
           
       </main>
-        
       <footer class="footer">
         <ul>
           <a  href="https://medium.com/@nikola.kuzmic945" target="_blank" ><li>Medium</li></a>
@@ -120,12 +235,49 @@
           <a  href="https://ca.linkedin.com/in/nikola-kuzmic-71b118148" target="_blank" ><li>LinkedIn</li></a>
         </ul>
       </footer>
-      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <!-- Adding Animation using ScrollReveal from  https://github.com/jlmakes/scrollreveal -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar',{
+        duration: 2000,
+        origin: 'bottom'
+      });
+      sr.reveal('.jumbotron',{
+        duration: 2000,
+        origin: 'top',
+        distance: '200px'
+      });
+      sr.reveal('.about-picture',{
+        duration: 2000,
+        origin: 'left',
+        distance: '300px'
+      });
+      sr.reveal('.col-md-8',{
+        duration: 2000,
+        origin: 'right',
+        distance: '300px'
+      });
+
+      sr.reveal('.skill-tabs',{
+        duration: 2000,
+        origin: 'bottom',
+        distance: '100px'
+      });
+
+      sr.reveal('.footer',{
+        duration: 900,
+        origin: 'bottom',
+        distance: '2px'
+      });
+
+    </script>
+
   </body>
 </html>
