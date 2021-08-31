@@ -22,18 +22,18 @@ body{
 
 .medium-logo{
   background-size: cover;
-  background-image: url("https://lh5.googleusercontent.com/1-x2vuWlXKnWo5XIzModwH26UHUM2zDKjWhDSc5LhFBEQD5Zdl9Qywubr5OufVVgfn6slA=w1280");
+  background-image: url("../../static/images/medium-logo.png");
   /* background-position:center;
   background-repeat:no-repeat; */
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   border-radius: 10%;
   margin: 10px;
 }
 
 .github-logo{
   background-size: cover;
-  background-image: url("https://lh3.googleusercontent.com/9NqeRlSPqrn6sF5-34huQ4s-av9d-sB1B47W_I61P54qeHilQnTrYc6PzPV0VS4hS-n-_g=w1280");
+  background-image: url("../../static/images/github-logo.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 100px;
@@ -51,6 +51,17 @@ body{
   width: 100px;
   border-radius: 10%;
   margin: 10px;
+}
+
+.cloud-prac-logo{
+  background-size: cover;
+  background-image: url("../../static/images/aws-cloud-prac-logo.png");
+  background-position:center; 
+  background-repeat:no-repeat; 
+  height: 90px;
+  width: 90px;
+  border-radius: 3%;
+  margin: 20px;
 }
 
 
