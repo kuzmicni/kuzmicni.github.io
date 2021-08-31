@@ -22,7 +22,7 @@ body{
 
 .medium-logo{
   background-size: cover;
-  background-image: url("./../../static/images/medium-logo.png");
+  background-image: url("/static/images/medium-logo.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 120px;
@@ -33,7 +33,7 @@ body{
 
 .github-logo{
   background-size: cover;
-  background-image: url("./../../static/images/github-logo.png");
+  background-image: url("/static/images/github-logo.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 100px;
@@ -44,7 +44,7 @@ body{
 
 .linkedin-logo{
   background-size: cover;
-  background-image: url("./../../static/images/linkedin.PNG");
+  background-image: url("/static/images/linkedin.PNG");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 100px;
