@@ -112,6 +112,43 @@ ul.a{
     /* border: 1px solid #eee; */
     padding: 10px;
 }
+
+.mynextmovie-text{
+  overflow: auto;
+  padding: 20px;
+  /* margin: 10px; */
+}
+
+.mynextmovie-pic{
+  overflow: auto;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+.retrofitAI-pic{
+  overflow: auto;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+.retrofitAI-text{
+  overflow: auto;
+  padding: 30px;
+  /* margin: 10px; */
+}
+
+.masc-text{
+  overflow: auto;
+  padding: 20px;
+  /* margin: 10px; */
+}
+
+.masc-pic{
+  overflow: auto;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
 .col{
     overflow: auto;
     height: 60px;
