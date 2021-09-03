@@ -22,7 +22,7 @@ body{
 
 .medium-logo{
   background-size: cover;
-  background-image: url("/static/images/medium-logo.png");
+  background-image: url("../../static/images/medium.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 120px;
@@ -33,7 +33,7 @@ body{
 
 .github-logo{
   background-size: cover;
-  background-image: url("/static/images/github-logo.png");
+  background-image: url("../../static/images/github.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 100px;
@@ -44,7 +44,7 @@ body{
 
 .linkedin-logo{
   background-size: cover;
-  background-image: url("/static/images/linkedin.PNG");
+  background-image: url("../../static/images/linkedin.png");
   /* background-position:center;
   background-repeat:no-repeat; */
   height: 100px;
@@ -55,13 +55,13 @@ body{
 
 .cloud-prac-logo{
   background-size: cover;
-  background-image: url("./../../static/images/aws-cloud-prac-logo.png");
+  background-image: url("../../static/images/awslogo.png");
   background-position:center; 
   background-repeat:no-repeat; 
-  height: 90px;
-  width: 90px;
+  height: 110px;
+  width: 110px;
   border-radius: 3%;
-  margin: 20px;
+  margin: 10px;
 }
 
 
