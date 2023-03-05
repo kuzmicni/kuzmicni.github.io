@@ -64,6 +64,17 @@ body{
   margin: 10px;
 }
 
+.sa-logo{
+  background-size: cover;
+  background-image: url("../../static/images/sa.png");
+  background-position:center; 
+  background-repeat:no-repeat; 
+  height: 110px;
+  width: 110px;
+  border-radius: 3%;
+  margin: 10px;
+}
+
 
 /* ------------------------------------
    About Me
