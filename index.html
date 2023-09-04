@@ -9,6 +9,15 @@
       })(window,document,'script','dataLayer','GTM-NT66PC57');</script>
    <!-- End Google Tag Manager -->
 
+   <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'totVisits': 100, // Set the initial visitor count here
+      // Add other data as needed
+    });
+  </script>
+  
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -119,7 +128,7 @@
           </div>
           <div class="col-sm-6 mynextmovie-pic">
             <h2>Nuber of Total Visitors to this website:</h2>
-            <div id="totalVisitorsDisplay"></div>
+            
 
               
         </div>
@@ -302,20 +311,6 @@
       });
 
     </script>
-
-<script>
-  // Function to update the total visitors display
-  function updateTotalVisitors() {
-    // Get the DataLayer Variable value
-    var totalVisitors = {{totVisits}}; // Use the variable name you set in GTM
-
-    // Update the HTML element with the total visitors
-    document.getElementById("totalVisitorsDisplay").textContent = totalVisitors;
-  }
-
-  // Call the function to update the display
-  updateTotalVisitors();
-</script>
 
 
   </body>
