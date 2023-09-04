@@ -41,6 +41,17 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <script>
+              // Access the gtm.start value from the data layer
+              var gtmStartValue = window.dataLayer[0]['gtm.start'];
+
+              // Display the value in the specified <div> element
+              var gtmStartDiv = document.getElementById('gtmStartValue');
+              if (gtmStartDiv) {
+                gtmStartDiv.textContent = 'gtm.start Value: ' + gtmStartValue;
+              }
+    </script>
+
           <header>
               <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,7 +141,10 @@
               
           </div>
           <div class="col-sm-6 mynextmovie-pic">
-            <h2>Nuber of Total Visitors to this website:</h2>
+            <div id="gtmStartValue">Loading gtm.start value...</div>
+
+            <!-- JavaScript to display the gtm.start value -->
+            
             
 
               
