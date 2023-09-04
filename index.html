@@ -10,16 +10,16 @@
    <!-- End Google Tag Manager -->
 
    <script>
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      'TotVisits': 100, // Set the initial visitor count here
-    });
-
-    // Increment the visitor count
-    var currentCount = window.dataLayer[0].TotVisits || 0;
-    var newTotVisits = currentCount + 1;
-    window.dataLayer.push({ 'TotVisits': newTotVisits });
-
+    // Check if TotVisits is already in the data layer
+    if (window.dataLayer.some(item => item.TotVisits !== undefined)) {
+      // Increment the visitor count
+      var currentCount = window.dataLayer[0].TotVisits || 0;
+      var newTotVisits = currentCount + 1;
+      window.dataLayer.push({ 'TotVisits': newTotVisits });
+    } else {
+      // Set the initial visitor count
+      window.dataLayer.push({ 'TotVisits': 100 });
+    }
   </script>
   
 
