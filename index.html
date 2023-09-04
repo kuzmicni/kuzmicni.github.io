@@ -12,9 +12,14 @@
    <script>
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      'totVisits': 100, // Set the initial visitor count here
-      // Add other data as needed
+      'TotVisits': 100, // Set the initial visitor count here
     });
+
+    // Increment the visitor count
+    var currentCount = window.dataLayer[0].TotVisits || 0;
+    var newTotVisits = currentCount + 1;
+    window.dataLayer.push({ 'TotVisits': newTotVisits });
+
   </script>
   
 
