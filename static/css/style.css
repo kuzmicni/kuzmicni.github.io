@@ -130,6 +130,12 @@ ul.a{
   /* margin: 10px; */
 }
 
+.ga-pic{
+  overflow: auto;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
 .mynextmovie-pic{
   overflow: auto;
   padding: 10px;
