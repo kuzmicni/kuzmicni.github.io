@@ -75,6 +75,17 @@ body{
   margin: 10px;
 }
 
+.de-logo{
+  background-size: cover;
+  background-image: url("../../static/images/DE_logo.png");
+  background-position:center; 
+  background-repeat:no-repeat; 
+  height: 103px;
+  width: 100px;
+  border-radius: 3%;
+  margin: 10px;
+}
+
 
 /* ------------------------------------
    About Me
